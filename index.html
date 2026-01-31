@@ -28,13 +28,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/accordion-faq-list.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery-baguetteBox.min.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md sticky-top py-3 navbar-shrink" id="mainNav">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/~lunabot/index.html"><img src="assets/img/LunaLogoTransparentBackground_Best%20Quality%20(1).png" width="192" height="62"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/~lunabot/index.html"><img class="swing animated" src="assets/img/LunaLogoTransparentBackground_Best%20Quality%20(1).png" width="192" height="62"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="/~lunabot/index.html">Home</a></li>
@@ -43,7 +44,7 @@
                     <li class="nav-item"><a class="nav-link" href="/~lunabot/sponsors.html">Sponsors</a></li>
                     <li class="nav-item"><a class="nav-link" href="/~lunabot/calendar.html">Calendar</a></li>
                     <li class="nav-item"><a class="nav-link" href="/~lunabot/donate.html">Donate</a></li>
-                </ul><a class="btn btn-primary shadow" role="button" href="/~lunabot/join.html">Join Us</a>
+                </ul><a class="btn btn-primary shadow" role="button" data-bss-hover-animate="pulse" href="/~lunabot/join.html">Join Us</a>
             </div>
         </div>
     </nav>
@@ -54,7 +55,7 @@
                 <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
                     <div style="max-width: 350px;">
                         <h2 class="text-uppercase fw-bold">Who Are We?</h2>
-                        <p class="my-3">Purdue Lunabotics is a student organization at Purdue University that has been designing, building and operating lunar robots to compete at the NASA Lunabotics Competition for over a decade.&nbsp;</p><a class="btn btn-primary btn-lg me-2" role="button" href="#history">Learn More</a><a class="btn btn-outline-primary btn-lg" role="button" href="join.html">Join</a>
+                        <p class="my-3">Purdue Lunabotics is a student organization at Purdue University that has been designing, building and operating lunar robots to compete at the NASA Lunabotics Competition for over a decade.&nbsp;</p><a class="btn btn-primary btn-lg me-2" role="button" data-bss-hover-animate="pulse" href="#history">Learn More</a><a class="btn btn-outline-primary btn-lg" role="button" data-bss-hover-animate="pulse" href="join.html">Join</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -88,12 +89,12 @@
         </section>
         <section class="py-4 py-xl-5">
             <div class="container">
-                <div class="text-dark bg-light border rounded border-0 border-light d-flex flex-column justify-content-between flex-lg-row p-4 p-md-5">
-                    <div class="pb-2 pb-lg-1">
+                <div class="text-dark bg-light border rounded border-0 border-light d-flex flex-column justify-content-between flex-wrap flex-lg-row p-4 p-md-5">
+                    <div class="w-75 flex-nowrap pb-2 pb-lg-1">
                         <h2 class="fw-bold mb-2">Our Competition</h2>
                         <p class="pe-6 mb-0">We compete in the Annual NASA Lunabotics Competition which is one week long and is held at the NASA's Kennedy Space Center in mid-May. Since 2010, this competition has challenged university student teams to design and build a lunar mining or construction robot while applying system engineering principles. </p>
                     </div>
-                    <div class="w-50 my-2"><a class="btn btn-primary" role="button" href="https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html" target="_blank">Learn More</a></div>
+                    <div class="w-25 my-2"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html" target="_blank">Learn More</a></div><div class="ratio ratio-16x9 d-block w-100"><iframe width="560" height="315" src="https://www.youtube.com/embed/idx5WFlFDyc?si=l_hNUquWTp55VqXb&amp;start=19127" referrerpolicy="no-referrer-when-downgrade" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
@@ -271,6 +272,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/bold-and-bright.js"></script>
     <script src="assets/js/Lightbox-Gallery-baguetteBox.min.js"></script>
     <script src="assets/js/Lightbox-Gallery.js"></script>
