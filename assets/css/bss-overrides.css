@@ -185,6 +185,10 @@
   --bs-btn-disabled-border-color: #6f727b;
 }
 
+.m-auto {
+  margin: auto !important;
+}
+
 .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
@@ -267,10 +271,6 @@
 
 .pt-3 {
   padding-top: 1rem !important;
-}
-
-.pe-0 {
-  padding-right: 0 !important;
 }
 
 .pe-6 {
